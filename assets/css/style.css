@@ -436,6 +436,8 @@ ul {
   margin:  1vw;
   color: white!important;
   font-weight: bold;
+  padding: 8px 12px!important;
+
 }
 
 .phonenum:hover {
