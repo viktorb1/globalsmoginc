@@ -178,6 +178,10 @@ ul {
   position: relative;
 }
 
+.bi-x::before {
+  padding-left:90vw;
+}
+
 .bi-link-45deg {
   padding: 0 5px;
   color: #68A4C4;
