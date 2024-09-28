@@ -494,7 +494,7 @@ ul {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -551,6 +551,12 @@ ul {
 
 }
 
+@media (max-width: 1200px) {
+  #hero h2 {
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+}
 
 
 @media (max-width: 768px) {
@@ -561,7 +567,7 @@ ul {
     transform: translateX(-50%) rotate(0deg);
   }
     #hero h2 {
-    font-size: 40px;
+    font-size: 32px;
   }
   #hero::before {
     top: 0;
@@ -569,6 +575,10 @@ ul {
     height: 94%;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) translateY(20px) rotate(4deg);
+  }
+
+  #vssi {
+    padding-bottom: 0!important;
   }
 
   .footer-links {
@@ -2526,7 +2536,8 @@ ul {
 }
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 560px) {
   .removepadding {
     padding: 0!important;
   }
@@ -2540,3 +2551,5 @@ ul {
     visibility: none!important;
   }
 }
+
+
