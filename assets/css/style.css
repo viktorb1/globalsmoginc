@@ -2550,6 +2550,11 @@ ul i {
     display: none!important;
     visibility: none!important;
   }
+
+  #hero h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
 }
 
 
