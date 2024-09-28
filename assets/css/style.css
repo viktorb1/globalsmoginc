@@ -34,10 +34,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 
-.row ul li {
+.boldlist {
   font-weight: 800;
   list-style: none;
-  margin-bottom: 5px;
 }
 
 
@@ -46,6 +45,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight:  400;
   font-style: normal;
   padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.unbolded {
+  font-weight:  400;
+  font-style: normal;
   margin-bottom: 0;
 }
 
@@ -108,7 +113,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .star {
   max-width: min(25vw, 255px);
-  margin: 0 0px 20px;
   border-radius:  14px;
 }
 
@@ -325,8 +329,11 @@ ul {
     display: none;
   }
 
-  .section-title {
-    flex-direction: column;
+
+
+  .section-title h2 {
+    line-height: 1!important;
+    min-width: 200px;
   }
 
   .star {
@@ -708,6 +715,14 @@ ul {
   justify-content: space-between;
 }
 
+.section-title-about {
+  text-align: center;
+  margin: 0 20px 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
 .section-title h2 {
   font-size: min(3vw, 40px);
   font-weight: 400;
@@ -767,6 +782,19 @@ ul {
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+}
+
+.two-column-list {
+  column-count: 2;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .two-column-list {
+    column-count: 1;
+    margin: 10px;
   }
 }
 
@@ -2480,4 +2508,24 @@ ul {
 
 #footer .credits a {
   color: #a2cce3;
+}
+
+.nondraggable {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+.roundedcorners {
+  border-radius: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .removepadding {
+    padding: 0!important;
+  }
 }
