@@ -2534,4 +2534,9 @@ ul {
   #hero p {
     margin-bottom: 5px;
   }
+
+  .hideinmobile {
+    display: none!important;
+    visibility: none!important;
+  }
 }
