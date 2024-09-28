@@ -2558,3 +2558,8 @@ ul i {
 }
 
 
+@media (min-width: 768px) and (max-width: 990px) {
+  .star {
+    max-width: min(30%, 255px);
+  }
+}
