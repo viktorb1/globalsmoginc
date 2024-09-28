@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 
 .star {
-  max-width: min(25vw, 255px);
+  max-width: min(44%, 255px);
   border-radius:  14px;
 }
 
@@ -590,7 +590,6 @@ ul {
   }
 
   .star {
-    max-width: 50%;
     margin: 0;
   }
 }
