@@ -697,6 +697,10 @@ ul {
   #hero-no-slider h2 {
     font-size: 30px;
   }
+
+  .bannervssi {
+    padding: 0!important;
+  }
 }
 
 /*--------------------------------------------------------------
