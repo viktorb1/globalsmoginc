@@ -15,7 +15,7 @@
       }
 
       .cls-1, .cls-2, .cls-3, .cls-8 {
-        font-family: AvenirNext-Bold, 'Avenir Next', sans-serif;
+        font-family: AvenirNext-Bold, 'Avenir Next';
         font-size: 123.28px;
         font-weight: 700;
       }
@@ -44,7 +44,7 @@
       }
 
       .cls-4, .cls-5, .cls-6, .cls-11 {
-        font-family: AvenirNext-UltraLight, 'Avenir Next', sans-serif;
+        font-family: AvenirNext-UltraLight, 'Avenir Next';
         font-size: 63.93px;
         font-weight: 100;
       }
@@ -62,7 +62,7 @@
       }
 
       .cls-7, .cls-9 {
-        font-family: Avenir-Medium, Avenir, sans-serif;
+        font-family: Avenir-Medium, Avenir;
         font-weight: 500;
       }
 

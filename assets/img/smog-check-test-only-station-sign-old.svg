@@ -2,13 +2,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 717.32 890.15">
   <defs>
     <style>
-      @font-face {
-        font-family: 'Avenir-Medium';
-        src: url('data:font/woff2;base64,PUT-YOUR-BASE64-ENCODED-FONT-HERE') format('woff2');
-        font-weight: normal;
-        font-style: normal;
-      }
-
       .cls-1 {
         fill: none;
       }
@@ -42,12 +35,12 @@
       }
 
       .cls-5, .cls-7 {
-        font-family: Avenir-Medium, Avenir, sans-serif;
+        font-family: Avenir-Medium, Avenir;
         font-weight: 500;
       }
 
       .cls-6 {
-        font-family: BookmanOldStyle-Bold, 'Bookman Old Style', serif;
+        font-family: BookmanOldStyle-Bold, 'Bookman Old Style';
         font-size: 116.91px;
         font-weight: 700;
       }
