@@ -429,7 +429,7 @@ ul {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: max(60vh, 650px);
+  height: max(60vh, 700px);
   overflow: hidden;
   position: relative;
   min-height: 550px;
@@ -632,11 +632,22 @@ ul {
   ul {
     padding-left: 0;
   }
+  #hero {
+    padding-top: 40px;
+  }
 
+  .contact .info-box {
+    box-shadow: none!important;
+    margin-bottom: 10px!important;
+  }
+  .contact {
+    padding-bottom: 10px!important;
+  }
   
   div .container .row {
     padding-top: 40px;
   }
+
 
   .section-title {
     margin: 0!important;
