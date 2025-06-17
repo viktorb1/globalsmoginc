@@ -636,6 +636,7 @@ ul {
     padding-top: 40px;
   }
 
+
   .contact .info-box, .services .icon-box {
     box-shadow: none!important;
     margin-bottom: 10px!important;
@@ -1741,6 +1742,9 @@ ul i {
   margin-bottom: 0;
   color: black;
 }
+ .contact .info-box a {
+  font-size: 18px;
+ }
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
