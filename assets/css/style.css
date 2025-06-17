@@ -636,7 +636,7 @@ ul {
     padding-top: 40px;
   }
 
-  .contact .info-box {
+  .contact .info-box, .services .icon-box {
     box-shadow: none!important;
     margin-bottom: 10px!important;
   }
